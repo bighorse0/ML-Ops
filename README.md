@@ -2,7 +2,7 @@
 
 A comprehensive Feature Store as a Service platform that enables ML teams to store, manage, serve, and monitor machine learning features at scale.
 
-## 🚀 Features
+## Features
 
 - **Feature Registry**: Metadata management, feature definitions, lineage tracking
 - **Multi-Modal Serving**: Online (<1ms p99), batch, and streaming feature serving
@@ -10,7 +10,7 @@ A comprehensive Feature Store as a Service platform that enables ML teams to sto
 - **Multi-Tenancy**: Namespace isolation, RBAC, API rate limiting
 - **Enterprise Security**: SOC2, GDPR, HIPAA ready with audit trails
 
-## 🏗️ Architecture
+## Architecture
 
 ```
 ┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
@@ -37,7 +37,7 @@ A comprehensive Feature Store as a Service platform that enables ML teams to sto
                        └─────────────────┘
 ```
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ### Backend
 - **API Framework**: FastAPI (Python)
@@ -60,7 +60,7 @@ A comprehensive Feature Store as a Service platform that enables ML teams to sto
 - **Monitoring**: Prometheus, Grafana
 - **Caching**: Redis Cluster
 
-## 📦 Project Structure
+## Project Structure
 
 ```
 MLOps/
@@ -86,7 +86,7 @@ MLOps/
 └── scripts/               # Utility scripts
 ```
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 - Docker & Docker Compose
@@ -135,14 +135,14 @@ cd backend && pytest
 cd frontend && npm test
 ```
 
-## 📊 Performance Benchmarks
+## Performance Benchmarks
 
 - **Online serving**: <1ms p99 latency, >10k RPS
 - **Batch processing**: Handle 1M+ feature computations/hour
 - **Memory usage**: <2GB per service instance
 - **Database query performance**: <10ms average
 
-## 🔒 Security Features
+## Security Features
 
 - Multi-tenant namespace isolation
 - Fine-grained RBAC with role-based access controls
@@ -151,28 +151,10 @@ cd frontend && npm test
 - Data encryption at rest and in transit
 - SOC2, GDPR, HIPAA compliance ready
 
-## 📈 Monitoring & Observability
+## Monitoring & Observability
 
 - Real-time metrics with Prometheus
 - Distributed tracing with OpenTelemetry
 - Feature drift detection and alerting
 - Data quality monitoring
 - Performance dashboards with Grafana
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🆘 Support
-
-- Documentation: [docs/](docs/)
-- Issues: [GitHub Issues](https://github.com/your-org/feature-store/issues)
-- Discussions: [GitHub Discussions](https://github.com/your-org/feature-store/discussions) 
